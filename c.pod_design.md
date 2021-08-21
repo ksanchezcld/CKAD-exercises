@@ -203,7 +203,9 @@ kubectl annotate po nginx{1..3} description-
 ```bash
 kubectl delete po nginx{1..3}
 ```
-
+```bash
+kubectl delete pods --all
+```
 </p>
 </details>
 
